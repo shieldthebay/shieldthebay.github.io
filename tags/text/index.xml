@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>text on Shield the Bay</title>
+    <link>https://shieldthebay.github.io/tags/text/</link>
+    <description>Recent content in text on Shield the Bay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shieldthebay.github.io/tags/text/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>College of Chemistry</title>
+      <link>https://shieldthebay.github.io/news/chem/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shieldthebay.github.io/news/chem/</guid>
+      <description>UC Berkeley College of Chemistry
+As the number of COVID-19 cases continue to escalate in the United States, healthcare providers across the country are dealing with a shortage of personal protective equipment, which has left many workers on the frontlines vulnerable to catching and transmitting the virus.
+Michael Zuerch wears a PPE faceshield
+In the Bay Area, an initiative called Shield the Bay(link is external) is aiming to address this PPE crunch.</description>
+    </item>
+    
+    <item>
+      <title>Featured in BEST</title>
+      <link>https://shieldthebay.github.io/news/mech/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shieldthebay.github.io/news/mech/</guid>
+      <description>UC Berkeley Best Lab
+Five UC Berkeley BESTies (Mechanical Engineering Ph.D. graduates – Jessica Granderson, Catherine Newman and Jaspal Sandhu – and undergraduate researchers – Resham Khanna in Cognitive Science &amp;amp; Psychology and Akhil Padmanabha in Mechanical Engineering) are producing face shields for Bay Area county hospitals and emergency response systems, to meet our local healthcare professionals’ need for personal protective equipment as we ramp up to the COVID-19 surge.</description>
+    </item>
+    
+    <item>
+      <title>UC Berkeley Public Health</title>
+      <link>https://shieldthebay.github.io/news/sph/</link>
+      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://shieldthebay.github.io/news/sph/</guid>
+      <description>Berkeley Public Health article
+As the number of COVID-19 cases continue to escalate in the United States, healthcare providers across the country are dealing with a shortage of personal protective equipment, which has left many workers on the frontlines vulnerable to catching and transmitting the virus.
+In the Bay Area, an initiative called Shield the Bay is aiming to address this PPE crunch. A team of designers and students, Shield the Bay is producing and distributing face shields to hospitals and emergency response systems in order to meet healthcare professionals’ needs on the frontlines of COVID-19.</description>
+    </item>
+    
+  </channel>
+</rss>
