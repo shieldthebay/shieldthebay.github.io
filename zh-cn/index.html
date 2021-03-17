@@ -21,53 +21,24 @@
   <body>
     
 
-  <div id="theme-message" style="background-color:#3c3b3b;color:#f4f4f4;margin:auto auto;padding:.25em 2em;width:75%;">
-    <p style="text-align:center;">This message, related to the development of the theme, only displays on the
-      <code>localhost</code> homepage to notify you of any important theme changes.</p>
-      <hr>
-      <h5 style="color:#f4f4f4;text-align:center;"><i class="fas fa-exclamation-triangle"></i>Version 1.1.0 - May 18, 2020<i class="fas fa-exclamation-triangle"></i></h5>
-    <p>With this version, the theme has fully implemented <strong>static search</strong> using
-<code>lunr.js</code>. That being said, a few modifications were necessary to implement this
-feature.</p>
-<p>To utilize this, or future version of <em>Hugo Future Imperfect Slim</em>, please make
-the following changes:</p>
-<ol>
-<li>Add the following to your <code>config.toml</code> before <code>[params]</code>:</li>
-</ol>
-<pre><code>...
-disableLanguages = [&quot;&quot;]
-
-[outputs]
-    home = [&quot;html&quot;, &quot;json&quot;]
-
-[params]
-...
-</code></pre><ol start="2">
-<li>
-<p>Remove the underscore from all <code>about</code> and <code>contact</code> page file names:
-<code>_index.md --&gt; index.md</code></p>
-</li>
-<li>
-<p>Add <code>layout = &quot;about&quot;</code> or <code>layout = &quot;contact&quot;</code> to all of the files you just
-just adjusted the file names for.</p>
-</li>
-</ol>
-<p>While I realize this is inconvenient, I hope that it is worth it to you in the
-long run. Thanks for using the theme, and feel free to submit issues as needed.</p>
-
-    <div style="text-align:center;">
-      <button onclick="removeBox()" class="button" style="color:#f4f4f4;margin-bottom:1em;">Close Notification Until Next Update</button>
-    </div>
-    <script>
-      if (window.location.href.indexOf('localhost:') < 1 || window.localStorage.getItem('HFIS-version') == '1.1.0') {
-        document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
-      }
-      function removeBox() {
-        window.localStorage.setItem('HFIS-version', '1.1.0');
-        document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
-      }
-    </script>
+<div id="theme-message" style="background-color:#3c3b3b;color:#f4f4f4;margin:auto auto;padding:.25em 2em;width:75%;">
+    <hr>
+    <h5 style="color:#f4f4f4;text-align:center;"><i class="fas fa-exclamation-triangle"></i>March 17th, 2021<i class="fas fa-exclamation-triangle"></i></h5>
+  Please be aware that as of March 17th, 2021, the Shield the Bay project has wrapped up.
+  <div style="text-align:center;">
+    <button onclick="removeBox()" class="button" style="color:#f4f4f4;margin-bottom:1em;">Close Notification Until Next Update</button>
   </div>
+  <script>
+    if (window.location.href.indexOf('localhost:') < 1 || window.localStorage.getItem('HFIS-version') == '1.1.0') {
+      document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
+    }
+    function removeBox() {
+      window.localStorage.setItem('HFIS-version', '1.1.0');
+      document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
+    }
+  </script>
+</div>
+
 <header id="site-header">
   <nav id="site-nav">
     <h1 class="nav-title">
@@ -81,69 +52,51 @@ long run. Thanks for using the theme, and feel free to submit issues as needed.<
       
         
           
-          
-            <a href="/zh-cn/" class="nav link"><i class='fa fa-home'></i> Home</a>
-          
+          <a href="/zh-cn/" class="nav link"><i class='fa fa-home'></i> Home</a>
         
       
         
           
-          
-            <a href="/zh-cn/about/" class="nav link"><i class='fa fa-user fa-fw'></i> About</a>
-          
+          <a href="/zh-cn/about/" class="nav link"><i class='fa fa-user fa-fw'></i> About</a>
         
       
         
           
-          
-            <a href="/zh-cn/team/" class="nav link"><i class='fa fa-user fa-fw'></i> Team</a>
-          
+          <a href="/zh-cn/team/" class="nav link"><i class='fa fa-user fa-fw'></i> Team</a>
         
       
         
           
-          
-            <a href="/zh-cn/partners/" class="nav link"><i class='fa fa-user fa-fw'></i> Partners</a>
-          
+          <a href="/zh-cn/partners/" class="nav link"><i class='fa fa-user fa-fw'></i> Partners</a>
         
       
         
           
-          
-            <a href="/zh-cn/news/" class="nav link"><i class='fas fa-sitemap'></i> In the News</a>
-          
+          <a href="/zh-cn/news/" class="nav link"><i class='fas fa-sitemap'></i> In the News</a>
         
       
         
           
-          
-            <a href="/zh-cn/faq/" class="nav link"><i class='fas fa-question'></i> FAQ</a>
-          
+          <a href="/zh-cn/faq/" class="nav link"><i class='fas fa-question'></i> FAQ</a>
         
       
         
           
-          
-            <a href="/zh-cn/gallery/" class="nav link"><i class='fas fa-camera'></i> Gallery</a>
-          
+          <a href="/zh-cn/gallery/" class="nav link"><i class='fas fa-camera'></i> Gallery</a>
         
       
         
           
-          
-            <a href="/zh-cn/design/" class="nav link"><i class='fas fa-circle'></i> Design</a>
-          
+          <a href="/zh-cn/design/" class="nav link"><i class='fas fa-circle'></i> Design</a>
         
       
         
           
-          
-            <a href="/zh-cn/contact/" class="nav link"><i class='far fa-envelope'></i> Contact</a>
-          
+          <a href="/zh-cn/contact/" class="nav link"><i class='far fa-envelope'></i> Contact</a>
         
       
-      <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
-      <a href="#search-input" class="nav search-toggle"><i class="fas fa-search">&nbsp;</i>Search</a>
+      <a href="#share-menu" class="nav link share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      <a href="#search-input" class="nav link search-toggle"><i class="fas fa-search">&nbsp;</i>Search</a>
     </menu>
     <a href="#search-input" class="nav search-toggle"><i class="fas fa-search fa-2x">&nbsp;</i></a>
     <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
